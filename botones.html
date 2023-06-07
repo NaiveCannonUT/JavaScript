@@ -7,11 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <link rel = "stylesheet" href="style.css" />
-    
-    <title>document</title>
+    <title>Document</title>
 </head>
 <body>
-     <header>
+    <header>
         <nav class = "TopNav">
             <u1>
                 <a href = "index.html" style="color: rgb(8, 8, 8);">Inicio</a>
@@ -20,30 +19,19 @@
             </u1>
         </nav>
     </header> 
-    <div class="container-carousel">
-        <div class="carruseles" id="slider">
-            <section class="slider-section">
-                <img src="img/1.jpg">
-            </section>
-            <section class="slider-section">
-                <img src="img/2.jpg">
-            </section>
-            <section class="slider-section">
-                <img src="img/3.jpg">
-            </section>
-            <section class="slider-section">
-                <img src="img/4.jpg">
-            </section>
-            <section class="slider-section">
-                <img src="img/5.jpg">
-            </section>
-            <section class="slider-section">
-                <img src="img/6.jpg">
-            </section>
-        </div>
-        <div class="btn-left"><=</div>
-        <div class="btn-rigth">=></div>
-    </div>
-    <script src="javascript/java.js"></script>
+    <section>
+        <u1 class ="titulo">Botones Magicos</u1>
+        <div class="container">
+            <div class="column-1">
+            <button class = "botton1">Presiona para cambiarme de color</button>
+            <button class = "botton2">Presiona para cambiarme de color</button>
+            <button class = "botton3">Presiona para cambiarme de color</button>
+            </div>
+            <div class="column-2">
+            <button class = "botton4" onclick = "CambiarColor">Azul</button>
+            <button class = "botton5" onclick = "CambiarColor2">Verde</button>
+            <button class = "botton6" onclick = "CambiarColor3">Rojo</button>
+    </section>
+    <script src="javascript/botones.js"></script>
 </body>
 </html>

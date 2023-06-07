@@ -1,11 +1,9 @@
 .TopNav {
-    float: left;
-    width: 30%;
     background-color: yellow;
-    
 }
 header{
     font-size: 30px;
+    text-align: center;
 }
 .TopNav u1{
     list-style-type: none;
@@ -17,16 +15,13 @@ header{
 .TopNav u3{
     list-style-type: none;
 }
-.TopNav u1 li{
-    display: inline-block;
-    padding: 4%;
-    }
+
     body {
         margin: 0;
       }
       .TopNav {
         width: 100%;
-        background-color: yellow;
+        background-color: rgb(0, 54, 90);
       }
       
       .TopNav u1{
@@ -39,19 +34,16 @@ header{
       .TopNav u3{
         list-style-type: none;
       }
-      .TopNav u1 li{
+      .TopNav u1 a{
         display: inline-block;
-        padding: 4%;
+        padding: 2%;
         }
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.form-label {
+    color: white;
 }
-
 body{
     height: 100vh;
-    display: flex;
+    
     align-items: center;
     justify-content:center;
     background:#283048;
@@ -59,17 +51,21 @@ body{
     padding: 20px;
 }
 .container-carousel {
-    width: 500px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
     background-color: aliceblue;
     box-shadow: 0 8px 0;
     border-radius: 10px;
     overflow: hidden;
+    
     }
 .carruseles {
-    width: 300%;
+    width: 600%;
     height: 100%;
     display: flex;
+    
+    justify-content:center;
+    transform: translateX(-33.3%);
     
 }
 .slider-section {
@@ -77,16 +73,18 @@ body{
 }
 
 .slider-section img {
-    width: 500px;
+    
+    width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+
 }
 
 .btn-left, .btn-rigth {
     display: flex;
     position: absolute;
-    top: 50%;
+    top: 70%;
     font-size: 1.5rem;
     background-color: transparent;
     border-radius: 50%;
@@ -99,10 +97,92 @@ body{
 }
 
 .btn-rigth {
-    right: 39%;
+    right: 10px;
 }
 
 .btn-rigth:hover, .btn-left:hover {
-    background-color: #333333d4;
-    color: #fff
+    background-color: #4d0303d4;
+color: #ffffff;
+}
+
+.container {
+    display: grid;
+      grid-template-columns: 2fr 2fr;
+      gap: 20px;; 
+  }
+
+  .column-1 {
+    background-color: rgba(0, 200, 250, 0.815);
+    background-size: cover;
+    padding: 50px;  
+    margin: 6rem 0;
+    border-radius: 1px;
+
+}
+.column-2 {
+    background-color: antiquewhite;
+    padding: 50px; 
+    margin: 6rem 0;
+    border-radius: 1px;
+
+
+ }
+
+ .botton1, .botton2, .botton3 {
+    background-color: #00aa41;
+    color: white;
+    border: none;
+    padding: 13px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 110%;
+ }
+
+ .botton4 {
+    background-color: #006eff;
+    color: white;
+    border: none;
+    padding: 13px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 110%;
+ }
+ .botton5 {
+    background-color: #00aa41;
+    color: white;
+    border: none;
+    padding: 13px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 110%;
+ }
+
+ .botton6 {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 13px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 110%;
+ }
+.Enviar {
+    background-color: #0099ff;
+    color: white;
+    border: none;
+    padding: 13px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 110%;
+}
+.titulo {
+    margin-top: 50px;
+    font-size: 50px;
+    color: #ffffff;
+}
+.titulo2 {
+    margin-top: 50%;
+    font-size: 50px;
+    color: #ffffff;
 }
